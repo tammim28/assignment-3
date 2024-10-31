@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/bc23428815.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
 
     <script>
         tailwind.config = {
@@ -71,7 +72,7 @@
                     <li class="hover:bg-red-400"><a>Contact Us</a></li>
                 </ul>
             </div>
-            <div class="none navbar-end space-x-4">
+            <div class=" navbar-end space-x-4">
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
                 <a class="btn bg-color-primary font-bold text-xl">Book Consult <i
@@ -82,8 +83,10 @@
         <div class="text-center flex flex-col items-center">
             <div><img src="./assets/banner.png" alt=""></div>
             <div class="text-center lg:w-3/4">
-                <h2 class="font-bold text-2xl lg:text-5xl my-6">A barn house of this design has a striking appearance</h2>
-                <p class="font-[500] mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                <h2 class="font-bold text-2xl lg:text-5xl my-6">A barn house of this design has a striking appearance
+                </h2>
+                <p class="font-[500] mb-6">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring
                     weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             </div>
             <div>
@@ -94,7 +97,46 @@
     </header>
 
     <main>
-
+        <!-- disuss section start -->
+        <section class="my-24 contact-bg">
+            <!-- text section -->
+            <div class="flex flex-col items-center">
+                <button class="btn mt-5 bg-color-primary font-bold text-xl"><i class="fa-solid fa-arrow-right"></i> Let’s
+                    Connect</button>
+                <div class="text-center lg:w-3/4">
+                    <h2 class="font-bold text-2xl lg:text-5xl my-6">Let’s Discuss Next Project
+                    </h2>
+                    <p class="font-[500] mb-6">The barn house captivates with its blend of rustic charm and modern
+                        sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+            </div>
+            <!-- form section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-3/4 mx-auto">
+                <div>
+                    <input class="p-4 border-none outline-none bg-slate-300 rounded-3xl w-full" type="text" name=""
+                        id="" placeholder="First Name">
+                </div>
+                <div>
+                    <input class="p-4 border-none outline-none bg-slate-300 rounded-3xl w-full" type="text" name=""
+                        id="" placeholder="Last Name">
+                </div>
+                <div>
+                    <input class="p-4 border-none outline-none bg-slate-300 rounded-3xl w-full" type="text" name=""
+                        id="" placeholder="Phine Number">
+                </div>
+                <div>
+                    <input class="p-4 border-none outline-none bg-slate-300 rounded-3xl w-full" type="text" name=""
+                        id="" placeholder="Email">
+                </div>
+                <div class="lg:col-span-2">
+                    <textarea rows="7" class="p-4 border-none outline-none bg-slate-300 rounded-3xl w-full" name="" id="" placeholder="Write your message here"></textarea>
+                </div>
+                <button class="bg-color-primary font-bold rounded-3xl lg:col-span-2 mb-4">Send Mail <i
+                    class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+        </section>
+        <!-- discuss section end -->
     </main>
 
     <footer>
